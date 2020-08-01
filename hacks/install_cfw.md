@@ -6,7 +6,7 @@
     --- | --- 
     [Xiaomi DaFang](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/dafang/cfw-1.3.bin) | d45826d5b471564366b3b9435509df7e8a2c0720656ea2b4bcac6dd0b42cc3eb
     [Xiaomi XiaoFang T20](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/xiaofang/cfw-1.0.bin) | 333053c3e98af24e0e90746d95e310a3c65b61f697288f974b702a5bcbba48a9
-    [Wyzecam V2](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_v2/cfw-1.1.bin) | ca8fd695fe1903bd12aca2752c86b62c9694430c9c41b2804b006c22e84f409d
+    [Wyzecam V2/Neos SmartCam](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_v2/cfw-1.1.bin) | ca8fd695fe1903bd12aca2752c86b62c9694430c9c41b2804b006c22e84f409d
     [Wyzecam Pan](https://github.com/EliasKotlyar/Xiaomi-Dafang-Hacks/raw/master/hacks/cfw/wyzecam_pan/cfw-1.0.bin) | f76990d187e763f160f5ad39331d6a3209d3025fe3719cb43c92dbad92cebba2
     Sannce & clones | [Start here](/hacks/install_sannce.md)
     Other Ingenic T10/T20 Device | [Start here](/hacks/newdevices.md)
@@ -29,12 +29,12 @@
 It should look like this:
 ```
 E:/
-├── Media
 ├── autoupdate.sh
 ├── bin
 ├── config
 ├── controlscripts
 ├── driver
+├── media
 ├── run.sh
 ├── scripts
 ├── uEnv.bootfromnand.txt
@@ -49,7 +49,7 @@ E:/
 5. Insert the microSD card and power up the camera.
 6. You can now login at https://dafang or your cameras ip adress with the default credentials root/ismart12
 
-Hint: The security warning about the unsafe https certificate can safely be ignored. A self-signed certificate is automatically generated on your camera during the first startup. By its nature your little camera's own certificate authority is not an never will be among the trusted ones delivered with the major browsers. 
+Hint: The security warning about the unsafe https certificate can safely be ignored. A self-signed certificate is automatically generated on your camera during the first startup. By its nature your little camera's own certificate authority is not and never will be among the trusted ones delivered with the major browsers. 
 
 ## Updating the microsd-bootloader
 
